@@ -1,9 +1,9 @@
 <script lang="ts">
     import { Button, SectionHeadline } from "$components";
 
-    let contactName = $state("Thai");
-    let contactMail = $state("Thai.R.360@gmail.com");
-    let informationAboutProject = $state("Check yes");
+    let contactName = $state("");
+    let contactMail = $state("");
+    let informationAboutProject = $state("");
     let isFormInvalid = $state(false);
     let isEmailSent = $state(false);
     let showErrorMessage = $state(false);
@@ -52,13 +52,16 @@
                     Thank you for getting in contact with me.<br /> I'll usually reply within 48 hours.
                 </h3>
             </div>
-        {:else if showErrorMessage}
-            <h3>We seem to have trouble with our server at the moment.<br />Please send me an email to <a class="link" href="mailto:thai@techrealm.io">thai@techrealm.io</a></h3>
         {:else if isLoading}
             <div class="spinner-container">
                 <div class="spinner"></div>
                 <h3>Sending off the contact form.</h3>
             </div>
+        {:else if showErrorMessage}
+            ${console.log('SENDGRID_API_KEY:', SENDGRID_API_KEY)};
+
+            ${console.error("SendGrid error:", err)};
+            <h3>We seem to have trouble with our server at the moment.<br />Please send me an email to <a class="link" href="mailto:thai@techrealm.io">thai@techrealm.io</a></h3>
         {:else}
             <form action="">
                 <input type="text" class="text-input mb-m" class:input-error={isFormInvalid && !Boolean(contactName.length)} placeholder="Your Name" bind:value={contactName} />
