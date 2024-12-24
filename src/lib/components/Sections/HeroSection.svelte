@@ -10,8 +10,8 @@
 <section class="hero-section default-margin">
     <h3>Hello! I'm Thai</h3>
     <div class="underscore mb-m"></div>
-    <h1>I help organizations write and ship code</h1>
-    <h1 class="dark-grey mb-m">faster.</h1>
+    <h1>I help organizations build and deploy software faster with modern DevOps</h1>
+    <h1 class="dark-grey mb-m">practices.</h1>
     <Button {onclick}>Let's talk</Button>
 </section>
 

@@ -14,23 +14,13 @@
         <img src={image} class="image" alt="" />
         <div class="text">
             <p>
-                Hey, I'm Thai, the driving force behind my freelancing agency
-                specializing in Web Development, DevOps, and Platform Engineering.
+                Hey, I’m Thai, a Certified CKAD/CKA DevOps Engineer with nearly 7 years of experience designing, automating, and managing software deployments. Over the years, I’ve tackled real-world challenges—everything from standing up Kubernetes clusters and configuring CI/CD pipelines to implementing observability and security best practices at scale for Fortune 500 companies.
               </p>
               <p>
-                With years of hands-on experience tackling real-world coding challenges
-                and meeting diverse client needs, I've built a deep understanding of the
-                tech landscape. But beyond coding, my true passion lies in teaching.
-                I've had the privilege of guiding hundreds of aspiring developers,
-                focusing on making coding both practical and accessible. My goal is to
-                translate complex concepts into actionable skills that you can apply
-                right away.
+                My passion doesn’t stop at technology; I love guiding teams and individuals through the intricacies of modern DevOps. I’ve developed training labs and hands-on workshops covering everything from Ansible and Terraform to Istio and Argo CD, helping countless engineers and organizations level up their skills.
               </p>
               <p>
-                Through my courses, I’m committed to sharing the insights and lessons
-                I’ve learned in the field, so you can skip the pitfalls and fast-track
-                your development journey. If you're eager to learn from real-world
-                experience and practical know-how, let's dive in together.
+                  Now, I’m here to help you streamline processes and fast-track your journey to a more efficient, reliable, and secure DevOps ecosystem. Whether you need to optimize your CI/CD pipeline, improve infrastructure as code, or enhance platform resilience, let’s collaborate to make your vision a reality. I look forward to partnering with you and unlocking the full potential of DevOps for your organization!
               </p>
               <Button className="mt-m" {onclick}>Tell me about your project</Button>
         </div>
