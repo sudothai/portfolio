@@ -58,9 +58,6 @@
                 <h3>Sending off the contact form.</h3>
             </div>
         {:else if showErrorMessage}
-            ${console.log('SENDGRID_API_KEY:', SENDGRID_API_KEY)};
-
-            ${console.error("SendGrid error:", err)};
             <h3>We seem to have trouble with our server at the moment.<br />Please send me an email to <a class="link" href="mailto:thai@techrealm.io">thai@techrealm.io</a></h3>
         {:else}
             <form action="">
