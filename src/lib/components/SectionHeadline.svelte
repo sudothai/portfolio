@@ -6,7 +6,7 @@
         sectionName: string;
     }
 
-    let { children, sectionName } = $props();
+    let { children, sectionName }: SectionHeadlineProps = $props();
 </script>
 
 <div class="default-margin" id={sectionName}>
