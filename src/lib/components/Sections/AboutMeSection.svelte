@@ -15,7 +15,7 @@
         <div class="text">
             <p>
                 Hey, I'm Thai, the driving force behind my freelancing agency
-                specializing in web development and data science.
+                specializing in Web Development, DevOps, and Platform Engineering.
               </p>
               <p>
                 With years of hands-on experience tackling real-world coding challenges
