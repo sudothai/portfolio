@@ -14,7 +14,7 @@
         <img src={image} class="image" alt="" />
         <div class="text">
             <p>
-                Hey, I’m Thai, a Certified CKAD/CKA DevOps Engineer with nearly 7 years of experience designing, automating, and managing software deployments. Over the years, I’ve tackled real-world challenges—everything from standing up Kubernetes clusters and configuring CI/CD pipelines to implementing observability and security best practices at scale for Fortune 500 companies.
+                Hey, I’m Thai, a Certified CKAD/CKA DevOps Engineer with 7 years of experience designing, automating, and managing software deployments. Over the years, I’ve tackled real-world challenges—everything from standing up Kubernetes clusters and configuring CI/CD pipelines to implementing observability and security best practices at scale for Fortune 500 companies.
               </p>
               <p>
                 My passion doesn’t stop at technology; I love guiding teams and individuals through the intricacies of modern DevOps. I’ve developed training labs and hands-on workshops covering everything from Ansible and Terraform to Istio and Argo CD, helping countless engineers and organizations level up their skills.
