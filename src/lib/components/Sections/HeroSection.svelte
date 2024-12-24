@@ -2,7 +2,7 @@
 	import { goto } from "$app/navigation";
     import { Button } from "$components";
 
-    function onclick(index: number) {
+    function onclick() {
         goto("/#contact-form");
     }
 </script>

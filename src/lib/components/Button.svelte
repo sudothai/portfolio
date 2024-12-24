@@ -3,12 +3,13 @@
 
     interface ButtonProps {
         children: Snippet,
-        onclick: Function;
+        onclick: ((e: MouseEvent) => | (() => void)),
+        className?: string;
     }
 
-    let { children }: ButtonProps = $props();
+    let { children, className, ...props }: ButtonProps = $props();
 </script>
 
-<button>
+<button class={`btn ${className}`} {...props}>
     {@render children()}
 </button>
