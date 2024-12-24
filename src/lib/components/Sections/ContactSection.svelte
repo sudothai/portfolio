@@ -63,7 +63,7 @@
             <form action="">
                 <input type="text" class="text-input mb-m" class:input-error={isFormInvalid && !Boolean(contactName.length)} placeholder="Your Name" bind:value={contactName} />
                 <input type="text" class="text-input mb-m" class:input-error={isFormInvalid && !Boolean(contactMail.length)} placeholder="Your Email" bind:value={contactMail} />
-                <textarea name="" id="" placeholder="Tell me what's up." class:input-error={isFormInvalid && !Boolean(informationAboutProject.length)} bind:value={informationAboutProject}></textarea>
+                <textarea name="" id="" placeholder="How can we help?" class:input-error={isFormInvalid && !Boolean(informationAboutProject.length)} bind:value={informationAboutProject}></textarea>
                 <Button onclick={onSubmit}>Submit</Button>
             </form>
         {/if}
