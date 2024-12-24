@@ -1,7 +1,8 @@
 <script>
-    import { HeroSection } from "$components";
+    import { ContactSection, HeroSection } from "$components";
 	import { AboutMeSection } from "$components";
 </script>
 
 <HeroSection />
 <AboutMeSection />
+<ContactSection />
