@@ -19,9 +19,9 @@ export async function POST({ request }) {
         to: "thai@techrealm.io",
         from: "thai@techrealm.io",
         subject: `${contactName}: Contact Form on your Portfolio`,
-        html: `Somebody used the contact form on your site. <br/>
-        Name: ${contactName}<br/>,
-        Email: ${contactMail}<br/>,
+        html: `Somebody used the contact form on your site. <br/><br/>
+        Name: ${contactName}<br/>
+        Email: ${contactMail}<br/
         Information about the project: ${informationAboutProject}`,
     };
 
