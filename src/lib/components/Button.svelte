@@ -13,6 +13,3 @@
 <button class={`btn ${className} mt-8 py-4 px-10 rounded-xl text-3xl bg-black text-white`} {...props}>
     {@render children()}
 </button>
-
-<style>
-</style>

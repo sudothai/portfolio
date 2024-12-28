@@ -32,7 +32,7 @@
 </script>
 
 <section class="mt-12">
-    <h2 class="text-6xl font-bold">Past Work <br /> Experience</h2>
+    <h2 class="text-6xl font-bold"><span class="underline text-6xl font-bold">Past</span> Work <br /> Experience</h2>
     <ul class="mt-12">
         {#each workExperience as job}
             <li class="">
@@ -40,7 +40,7 @@
                     <h3 class="font-bold mt-6">{job.jobTitle}</h3>
                     <div class="grid sm:grid-cols-2 mt-2">
                         <p>{job.company}</p>
-                        <p class="">
+                        <p class="text-right">
                             {job.startDate}
                         {#if job.endDate}
                             / {job.endDate}
