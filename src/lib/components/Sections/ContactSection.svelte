@@ -71,7 +71,7 @@
             <h3 class="font-bold mb-4 text-3xl">
                 Talk to me about your project
             </h3>
-            <p class="text-2xl">
+            <p class="text-3xl">
                 I’m always excited to learn about fresh, innovative ideas! Whether you’re just starting to brainstorm or already have a detailed plan, I’m here to help make your vision a reality. Drop me a message with some details about your project, and let’s chat about how we can collaborate. I look forward to connecting and exploring the possibilities together. Talk soon!
             </p>
         </div>
