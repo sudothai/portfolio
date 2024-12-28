@@ -4,10 +4,6 @@ import { json } from "@sveltejs/kit";
 
 sgMail.setApiKey(SENDGRID_API_KEY);
 
-// function delay(ms:number) {
-//     return new Promise(resolve => setTimeout(resolve, ms));
-// }
-
 export async function POST({ request }) {
     const { contactMail, contactName, informationAboutProject } = await request.json();
 
@@ -33,5 +29,4 @@ export async function POST({ request }) {
         return json({ err }, { status: 500 });
     }
 
-    // await delay(2000);
 }
