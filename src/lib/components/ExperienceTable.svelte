@@ -31,15 +31,16 @@
     ];
 </script>
 
-<section class="default-margin work-experience mt-l">
-    <ul class="work-experience-list">
+<section class="mt-12">
+    <h2 class="text-6xl font-bold">Past Work <br /> Experience</h2>
+    <ul class="mt-12">
         {#each workExperience as job}
-            <li class="work-item">
+            <li class="">
                 <article>
-                    <h3 class="semi-bold mb-xs">{job.jobTitle}</h3>
-                    <div class="company-and-date">
+                    <h3 class="font-bold mt-6">{job.jobTitle}</h3>
+                    <div class="grid sm:grid-cols-2 mt-2">
                         <p>{job.company}</p>
-                        <p class="dark-grey">
+                        <p class="">
                             {job.startDate}
                         {#if job.endDate}
                             / {job.endDate}
@@ -52,39 +53,4 @@
             </li>
         {/each}
     </ul>
-    <h2>Past Work <br /> Experience</h2>
 </section>
-
-<style>
-    .work-experience {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .work-experience-list {
-        width: 50%;
-    }
-
-    .headline {
-        text-align: right;
-    }
-
-    .work-item {
-        border-bottom: 1px solid #f0eded;
-        padding-bottom: 12px;
-    }
-
-    .work-item:not(:first-of-type) {
-        padding-top: 16px;
-    }
-
-    .work-item p {
-        margin-bottom: 0;
-    }
-
-    .company-and-date {
-        display: flex;
-        justify-content: space-between;
-    }   
-</style>

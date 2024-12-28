@@ -10,18 +10,9 @@
     let { children, className, ...props }: ButtonProps = $props();
 </script>
 
-<button class={`btn ${className}`} {...props}>
+<button class={`btn ${className} mt-8 py-4 px-10 rounded-xl text-3xl bg-black text-white`} {...props}>
     {@render children()}
 </button>
 
 <style>
-    .btn {
-        font-family: "Inter Tight", sans-serif;
-        font-weight: 500;
-        background-color: black;
-        color: white;
-        font-size: 24px;
-        padding: 14px 40px;
-        border-radius: 10px;
-    }
 </style>

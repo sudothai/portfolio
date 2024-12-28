@@ -7,16 +7,9 @@
     }
 </script>
 
-<section class="hero-section default-margin">
-    <h3>Hello! I'm Thai</h3>
-    <div class="underscore mb-m"></div>
-    <h1>I help organizations build and deploy software faster with modern DevOps</h1>
-    <h1 class="dark-grey mb-m">practices.</h1>
+<section class="">
+    <h3 class="mt-12 text-3xl"><span class="underline">Hello</span>! I'm Thai</h3>
+    <h1 class="mt-8 text-7xl lg:text-8xl font-extrabold w-10/12">I help organizations deliver software faster with modern</h1>
+    <h1 class="text-7xl lg:text-8xl font-extrabold text-gray-500">DevOps.</h1>
     <Button {onclick}>Let's talk</Button>
 </section>
-
-<style>
-    .hero-section {
-        padding-top: 60px;
-    }
-</style>
