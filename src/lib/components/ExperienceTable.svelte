@@ -24,7 +24,7 @@
         },
         {
             jobTitle: "Web Platform Engineer",
-            company: "Brotherhood Mutual Insurance Company",
+            company: "Brotherhood Mutual",
             startDate: "05-2017",
             endDate: "06-2021",
         },
@@ -32,13 +32,13 @@
 </script>
 
 <section class="mt-12">
-    <h2 class="text-6xl font-bold"><span class="underline text-6xl font-bold">Past</span> Work <br /> Experience</h2>
+    <h2 class="xs:text-4xl text-6xl font-bold"><span class="underline text-6xl xs:text-4xl font-bold">Past</span> Work <br /> Experience</h2>
     <ul class="mt-12">
         {#each workExperience as job}
             <li class="">
                 <article>
-                    <h3 class="font-bold mt-6">{job.jobTitle}</h3>
-                    <div class="grid sm:grid-cols-2 mt-2">
+                    <h3 class="font-bold mt-6  xs:text-2xl">{job.jobTitle}</h3>
+                    <div class="grid sm:grid-cols-2 mt-2  xs:text-lg">
                         <p>{job.company}</p>
                         <p class="text-right">
                             {job.startDate}
