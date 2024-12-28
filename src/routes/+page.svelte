@@ -3,7 +3,7 @@
 	import { AboutMeSection } from "$components";
 </script>
 
-<div class="container mx-auto">
+<div class="container mx-auto px-2">
     <HeroSection />
     <AboutMeSection />
     <ContactSection />
