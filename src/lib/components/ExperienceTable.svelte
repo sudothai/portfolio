@@ -38,9 +38,9 @@
             <li class="">
                 <article>
                     <h3 class="font-bold mt-6  xs:text-2xl">{job.jobTitle}</h3>
-                    <div class="grid sm:grid-cols-2 mt-2  xs:text-lg">
+                    <div class="flex items-center justify-between mt-2 xs:text-lg">
                         <p>{job.company}</p>
-                        <p class="text-right">
+                        <p class=" whitespace-nowrap">
                             {job.startDate}
                         {#if job.endDate}
                             / {job.endDate}
